@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <title>宅品味 -享受好品味-</title>
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/creative.min.css" rel="stylesheet">
+    <!-- Animate CSS -->
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
+    <!-- fancy box CSS -->
+    <link href="css/jquery.fancybox.min.css" rel="stylesheet" />
+    <!-- Custom styles for this template -->
+    <link href="css/timeline.css" rel="stylesheet">
+    <!-- go top CSS -->
+    <link href="css/gotop.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script>
+        window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-122468270-5');
+  </script>
+</head>
+
+<body id="page-top">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top text-info" id="mainNav">
+        <div class="container mx-auto">
+            <img src="logo.png" class="navbar-brand" alt="" width="8%">
+            <div class="collapse navbar-collapse justify-content-evenly" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item-divider">
+                        <span class="nav-link">
+                            <span></span>
+                        </span>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  ms-5 mr-3 " href="#about">關於我們</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  mx-3 " href="#feature">特色介紹</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  mx-3 " href="#intro">旅遊細節</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  mx-3 " href="#shop">購買票卷</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  mx-3 " href="#dm">訂閱我們</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  mx-3 " href="#qa">Q & A</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  mx-3 " href="#contact">聯繫我們</a>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-primary mx-3" data-toggle="modal" data-target="#cart">購物車 <i class="fas fa-shopping-cart"></i> (<span class="total-count"></span>)</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Start header -->
+    <!-- carousal -->
+    <div class="carousel slide" id="carousel" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button class="active" type="button" data-bs-target="#carousel" data-bs-slide-to="0"></button>
+            <button class="" type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+            <button class="" type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item">
+                <div class="jumbotron img-fluid"></div>
+                <div class="bg-overlay"></div>
+                <div class="container">
+                    <div class="carousel-caption action">
+                        <div class="avatar">
+                            <img src="logogbig.png" class="navbar-brand" alt="">
+                        </div>
+                        <div class="container mt-5">
+                        <h2 class="mb-4" style="letter-spacing: 3px;">台灣宅度假資訊整合</h2>
+                        <p class="mb-4 opacity-75" style="line-height:2;">宅度假旋風正夯，後疫情時代換種方式旅行也好解壓<br>讓已被關在家許久的我們，換個地點轉換悠閒好心情</p>
+                        <p><a href="#shop" class="btn btn-lg btn-primary">購買票卷</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item active">
+                <div class="jumbotron2 img-fluid"></div>
+                <div class="bg-overlay"></div>
+                <div class="container">
+                    <div class="carousel-caption">
+                        <div class="avatar">
+                            <img src="logogbig.png" class="navbar-brand" alt="">
+                        </div>
+                        <div class="container mt-5">
+                        <h2 class="mb-4" style="letter-spacing: 3px;">宅度假也要落實防疫規範</h2>
+                        <p class="mb-4 opacity-75" style="line-height:2;">宅度假旋風正夯，後疫情時代換種方式旅行也好解壓<br>讓已被關在家許久的我們，換個地點轉換悠閒好心情</p>
+                        <p><a href="#intro" class="btn btn-lg btn-primary">旅遊細節</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="jumbotron3 img-fluid"></div>
+                <div class="bg-overlay"></div>
+                
+                <div class="container">
+                    <div class="carousel-caption">
+                        <div class="avatar">
+                            <img src="logogbig.png" class="navbar-brand" alt="">
+                        </div>
+                        <div class="container mt-5">
+                        <h2 class="mb-4" style="letter-spacing: 3px;">宅度假相關問題</h2>
+                        <p class="mb-4 opacity-75" style="line-height:2;">宅度假旋風正夯，後疫情時代換種方式旅行也好解壓<br>讓已被關在家許久的我們，換個地點轉換悠閒好心情</p> 
+                        <p><a href="#qa" class="btn btn-lg btn-primary">Q & A</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden></span>
+                <span class="visually-hidden">prev</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden></span>
+                <span class="visually-hidden">next</span>
+            </button>
+        </div>
+        <!-- End header -->
+        <!-- Start About -->
+        <section class="bg-info bg-a " id="about">
+             <img class="parallax-1 an rellax" src="parallax/01.png" alt="">
+             <img class="parallax-12  rellax" src="parallax/10.png" alt="">
+            <!-- Content -->
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <!-- Image -->
+                        <img src="img/01.jpeg" class="img-fluid rounded shadow js-fadeInLeft img-1 float2">
+                        
+                    </div>
+                    <div class="col-md-6 col-lg-4 offset-lg-1 order-md-1 move">
+                        <!-- Heading -->
+                        <h2 class="mb-5 fw-bold title js-fadeInUp tc-other" style="letter-spacing: 5px; text-shadow: 0.01em 0.01em 0.2em #ffffff80;">
+                            <i class="fas fa-quote-left"></i>  關於宅度假  <i class="fas fa-quote-right"></i>  
+                        </h2>
+                        <!-- Content -->
+                        <ul class="text-dark list-iconed js-fadeInUp">
+                            <li class="list-iconed-item mb-3">
+                                <em class="fw-bold babo text-white">準備一切</em>
+                                <p>&emsp;</p> 口罩和乾洗手液是必不可少的清單<br>根據自己的需求確定度假方案
+                            </li>
+                            <li class="list-iconed-item mb-3">
+                                <em class="fw-bold babo text-white">確定目的</em>
+                                <p>&emsp;</p> 依據「宅度假」方案確定目的地<br>查看建議，確定目的地是否開放
+                            </li>
+                            <li class="list-iconed-item mb-3">
+                                <em class="fw-bold babo text-white">確定細節</em>
+                                <p>&emsp;</p> 度假時間、交通方式<br>費用預算以及同行人員
+                            </li>
+                            <li class="list-iconed-item mb-3">
+                                <em class="fw-bold babo text-white">預定飯店</em>
+                                <p>&emsp;</p> 預訂前先查看飯店的防疫措施<br>選擇清潔度高允許免費取消的飯店
+                            </li>
+                        </ul>
+                        <!-- Button -->
+                        <a href="#intro" class="btn btn-primary">
+                            了解更多&emsp;<i class="fas fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- pricing item -->
+        <!--         <a class="btn btn-start btn-light btn-xl js-scroll-trigger sr-button shadow-sm" href="https://i.nccu.edu.tw/Login.aspx" target="_blank" id="no_ie">
+          前往iNCCU啟用<br>
+          <span id="no_ie_text"><i class="fas fa-exclamation-circle"></i> 不支援IE瀏覽器</span>
+        </a> -->
+        <!-- pricing item.. -->
+    </div>
+    </div>
+    </section>
+    <!-- End About -->
+    <!-- Start feature -->
+    <section class="feature border-bottom" id="feature">
+        <div class="bg-overlay2"></div>
+        <div class="bg-overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading title-sec fw-bold mb-5 js-fadeInUp neon"><i class="fas fa-quote-left"></i>   特色介紹  <i class="fas fa-quote-right"></i></h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box mt-5 mx-auto">
+                        <i class="fas fa-4x fa-globe-asia text-info mb-3 sr-icon-1 rotate2" style="color: #f3c56d"></i>
+                        <h3 class="mt-5 my-3 title-sec babo2">全球響應</h3>
+                        <p class="title-sec mb-0 opacity-75">全世界因嚴重疫情響應宅度假中。</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box mt-5 mx-auto">
+                        <i class="fas fa-4x fa-bullhorn text-info mb-3 sr-icon-1 rotate2" style="color: #f3c56d"></i>
+                        <h3 class="mt-5 my-3 title-sec babo2">訊息準確</h3>
+                        <p class="title-sec mb-0 opacity-75">宅品味的訊息網流通且快速。</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box mt-5 mx-auto">
+                        <i class="fas fa-4x fa-headphones text-info mb-3 sr-icon-1 rotate2" style="color: #f3c56d"></i>
+                        <h3 class="mt-5 my-3 title-sec babo2">全天客服</h3>
+                        <p class="title-sec mb-0 opacity-75">有什麼問題，請隨時來電。</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box mt-5 mx-auto">
+                        <i class="fas fa-4x fa-shopping-cart text-info mb-3 sr-icon-1 rotate2" style="color: #f3c56d"></i>
+                        <h3 class="mt-5 my-3 title-sec babo2">優惠眾多</h3>
+                        <p class="title-sec mb-0 opacity-75">疫情期間出門的好選擇。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End feature -->
+    <!-- End intro -->
+    <section class="pt-7 pt-md-9 bg-d" id="intro">
+        <img src="parallax/03.png" alt="" class="rellax parallax-3" data-rellax-speed="-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2">
+                    <!-- Divider -->
+                    <hr class="hr-sm bg-primary">
+                    <!-- Text -->
+                    <p class="fs-lg lh-lg text-black mb-5 mb-md-0 opacity-75 js-fadeInLeft">
+                        <em>坐下來查看</br>最豐富的</br>宅度假統整網站 </em>
+                    </p>
+                </div>
+                <div class="col-md-4">
+                    <!-- Media -->
+                    <div class="media-decoration media-decoration-1 mb-5 mb-md-0">
+                        <!-- Border -->
+                        <div class="media-decoration-border" data-jarallax-element="-40" style="transform: translate3d(0px, 11.0183px, 0px);">
+                            <div id="jarallax-container-1" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; z-index: -100;">
+                                <div style="pointer-events: none; transform-style: preserve-3d; backface-visibility: hidden; will-change: transform, opacity; position: fixed;"></div>
+                            </div>
+                        </div>
+                        <!-- Image -->
+                        <img src="parallax/09.png" alt="" class="rellax parallax-11" data-rellax-speed="-2">
+                        <img class="media-decoration-img img-fluid rounded js-fadeInLeft float2" src="img/02.jpeg" alt="...">
+                    </div>
+                </div>
+                <div class="col-md-5 align-self-center mx-auto js-fadeInUp">
+                    <!-- Heading -->
+                    <h2 class="mb-3 fw-bold ti-le">
+                        <em>宅度假 <span class="bb">參考守則</span></em>
+                    </h2>
+                    <!-- Text -->
+                    <p class="mb-3 opacity-75" style="line-height: 2rem;">
+                        為了避免「宅度假」途中增加感染病毒的風險，共同振興光關於安心防疫，十四天有國外旅遊史以及有感冒、發燒、咳嗽、呼吸困難等症狀不宜參加旅遊，旅途中如發現身體不適，應立即就醫。
+                    </p>
+                    <a href="" class="btn btn-primary" data-target="#modal1" data-toggle="modal">參考守則</a>
+                    
+                </div>
+                <div class="modal fade" id="modal1">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header" id="modal1">
+                                    <h5 class="mb-0">參考守則</h5>
+                                    <button class="btn-close" data-dismiss="modal"></button>
+                                </div>
+                                <div class="modal-body" style="font-size: 18px;">
+                                    <p><b style="color:red;"><i>1) 在外用餐時，</i></b>使用套餐，避免多人共食；用餐前用乾洗手液消毒雙手；進食時避免交談，吃完要交談時須先佩戴口罩、維持足夠的社交距離。</p>
+                                    <p><b style="color:red;"><i>2) 入住飯店時，</i></b>須配合飯店測量體溫；飯店大廳保持 1.5 公尺的社交距離；客房最多為 2 人 1 室，1 人 1 床並且經常用乾洗手液消毒雙手。
+                                    </p>
+                                    <p><b style="color:red;"><i>3) 商場購物時，</i></b>須全程佩戴口罩；結賬或排隊須保持 1.5 公尺的社交距離並經常用乾洗手液消毒雙手。
+                                    </p>
+                                    <p><b style="color:red;"><i>4) 乘坐交通工具出行時，</i></b>上車配合司機測量體溫；搭乘搭乘大眾交通工具時應全程佩戴口罩；旅客間相隔座位就坐。
+                                    </p>
+                                    <p><b style="color:red;"><i>5) 遊覽觀光時，</i></b>以戶外景點為主，並避開人潮擁擠尖峰時段；主動配合測量體溫；須佩戴口罩，保持社交距離；用乾洗手液消毒雙手。
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn-secondary btn" data-dismiss="modal">關閉</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!-- End intro -->
+    <section class="py-7 py-md-9 bg-e">
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 order-md-2 align-self-end">
+                    <!-- Divider -->
+                    <hr class="hr-sm bg-primary">
+                    <!-- Text -->
+                    <p class="fs-lg lh-lg text-black mb-5 mb-md-0 fw-bold opacity-75 js-fadeInLeft">
+                        <em>背起背包<br>準備一場了解台灣的旅行</em>
+                    </p>
+                </div>
+                <div class="col-md-4 order-md-3">
+                    <!-- Media -->
+                    <div class="media-decoration media-decoration-1 mb-5 mb-md-0">
+                        <!-- Solid -->
+                        <div class="media-decoration-solid" data-jarallax-element="-40" style="transform: translate3d(0px, -2.92668px, 0px);">
+                            <div id="jarallax-container-2" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; z-index: -100;">
+                                <div style="pointer-events: none; transform-style: preserve-3d; backface-visibility: hidden; will-change: transform, opacity; position: fixed;"></div>
+                            </div>
+                        </div>
+                        <!-- Border -->
+                        <div class="media-decoration-border" data-jarallax-element="-40" style="transform: translate3d(0px, 4.06448px, 0px);">
+                            <div id="jarallax-container-3" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; z-index: -100;">
+                                <div style="pointer-events: none; transform-style: preserve-3d; backface-visibility: hidden; will-change: transform, opacity; position: fixed;"></div>
+                            </div>
+                        </div>
+                        <!-- Image -->
+                        <img src="parallax/11.png" alt="" class="rellax parallax-10" data-rellax-speed="-2">
+                       <img class="media-decoration-img rounded js-fadeInRight float2" src="img/03.jpeg" alt="..." width="116%">
+                    </div>
+                </div>
+                <div class="col-md-5 align-self-center mx-auto js-fadeInUp">
+                    <!-- Heading -->
+                    <h2 class="mb-3 fw-bold ti-le">
+                        <em>宅度假 <span class="bb">方案推薦</span></em>
+                    </h2>
+                    <!-- Text -->
+                    <p class="mb-3 opacity-75" style="line-height: 2rem;">
+                        宅度假旋風正夯，後疫情時代換種方式旅行，讓已被關在家許久的我們，換個地點轉換悠閒好心情。讓我們遠離塵囂，並在平靜享受愜意療癒時光的旅宿中，紓緩因爲疫情而緊繃的身心。
+                    </p>
+                    <a href="" class="btn btn-primary" data-target="#modal2" data-toggle="modal">方案推薦</a>
+                    
+                </div>
+                <div class="modal fade" id="modal2">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header" id="modal2">
+                                    <h5 class="mb-0">方案推薦</h5>
+                                    <button class="btn-close" data-dismiss="modal"></button>
+                                </div>
+                                <div class="modal-body" style="font-size: 18px;">
+                                    <p><b style="color:red;"><i>1) 露營：</i></b>台灣露營旅行風氣非常盛行，避開城市的紛擾，投入到大自然懷抱中，眼睛遠離螢幕，呼吸著新鮮的空氣，讓人忘卻一切煩惱。</p>
+                                    <p><b style="color:red;"><i>2) 戶外健行：</i></b>新冠病毒肆虐下，旅行型態逐漸轉為深度化發展，國內自駕遊成為新形態下的旅遊趨勢，一路上走走停停、隨心所欲，省時、方便、又愜意！
+                                    </p>
+                                    <p><b style="color:red;"><i>3) 泡湯：</i></b>，台灣是世界最佳的泉質區之一，擁有冷泉、熱泉、濁泉、海底泉等多樣性泉質，可以起到緩解疲勞痠痛，舒緩情緒與壓力、養顏美容、加速新陳代謝等等。
+                                    </p>
+                                    <p><b style="color:red;"><i>4) 飯店度假：</i></b>台灣地理條件得天獨厚，無需長途跋涉就能欣賞到胡泊、山川、海灘、花海之美，選一間你喜歡的飯店，不出台灣也能感受國外度假慵懶靜謐的氛圍。
+
+                                    </p>
+                                    <p><b style="color:red;"><i>5) 即興安排：</i></b>這是一場週末冒險，不用事先安排，等週末快到時隨意上網訂定一間最優惠的飯店，入住後只安排一些步行或自行車活動，隨意參觀當地公園、書店、餐廳或是特別有趣的建築。
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn-secondary btn" data-dismiss="modal">關閉</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!-- Start shop -->
+    <section class="py-7 py-md-9 border-bottom bg-info bg-shop" id="shop">
+        <img src="parallax/04.png" alt="" class="rellax parallax-4" data-rellax-speed="-2">
+        <i class="fas fa-shopping-cart fa-10x opacity-25 rellax-1 parallax-13"></i>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 col-lg-6 text-center">
+                    <!-- Heading -->
+                    <h2 class="mb-4 fw-bolder title js-fadeInUp text-dark" style="letter-spacing: 5px; text-shadow: 0.01em 0.01em 0.2em #ffffff80;">
+                        購買票卷
+                    </h2>
+
+
+                    <!-- Subheading -->
+                    <p class="mb-4  text-dark opacity-75">
+                        提倡環保，僅提供數位電子票卷！</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <!-- Content -->
+                    <div class="tab-content" id="menuContent">
+                        <div class="tab-pane fade show active" id="mains" role="tabpanel" aria-labelledby="mainsTab">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <div class="py-3 border-bottom">
+                                        <div class="row">
+                                            <div class="col-3 align-self-center">
+                                                <!-- Image -->
+                                                <div class="ratio ratio-1x1">
+                                                    <img class="object-fit-cover rounded js-fadeInLeft" src="cart/01.png" alt="...">
+                                                </div>
+                                            </div>
+                                            <div class="col-7">
+                                                <!-- Heading -->
+                                                <h5 class="mb-2 title"><i class="fas fa-shopping-cart"></i>&emsp;台中麗寶大飯店 專屬折扣</h5>
+                                                <!-- Text -->
+                                                <p class="mb-0 opacity-75 " style="line-height: 1.5rem;">
+                                                    台中品質最佳的飯店</br>提供您<span class="attention">20%的優惠</span></br>讓您吃得好睡的好</br>不怕疫情悶到慌
+                                                </p>
+                                            </div>
+                                            <div class="col-2">
+                                                <!-- Price -->
+                                                <div class="fs-4 font-serif text-center ">
+                                                    $5000
+                                                </div>
+                                                <a href="#" data-name="台中麗寶大飯店" data-price="5000" class="add-to-cart btn btn-primary mt-3"><i class="fas fa-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="py-3 border-bottom">
+                                        <div class="row">
+                                            <div class="col-3 align-self-center">
+                                                <!-- Image -->
+                                                <div class="ratio ratio-1x1">
+                                                    <img class="object-fit-cover rounded js-fadeInLeft" src="cart/02.png" alt="...">
+                                                </div>
+                                            </div>
+                                            <div class="col-7">
+                                                <!-- Heading -->
+                                                <h5 class="mb-2 title"><i class="fas fa-shopping-cart"></i>&emsp;全台麥當勞 專屬優惠</h5>
+                                                <!-- Text -->
+                                                <p class="mb-0 opacity-75" style="line-height: 1.5rem;">
+                                                    平民小吃麥當勞</br>每份便宜又上癮</br>提供<span class="attention">大薯買一送一</span>
+                                                </p>
+                                            </div>
+                                            <div class="col-2">
+                                                <!-- Price -->
+                                                <div class="fs-4 font-serif text-center text-whit">
+                                                    $50
+                                                </div>
+                                                <a href="#" data-name="麥當勞優惠" data-price="50" class="add-to-cart btn btn-primary mt-3"><i class="fas fa-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="py-3 border-bottom">
+                                        <div class="row">
+                                            <div class="col-3 align-self-center">
+                                                <!-- Image -->
+                                                <div class="ratio ratio-1x1">
+                                                    <img class="object-fit-cover rounded js-fadeInLeft" src="cart/03.png" alt="...">
+                                                </div>
+                                            </div>
+                                            <div class="col-7">
+                                                <!-- Heading -->
+                                                <h5 class="mb-2 title"><i class="fas fa-shopping-cart"></i>&emsp;台北圓山大飯店 專屬折扣</h5>
+                                                <!-- Text -->
+                                                <p class="mb-0 opacity-75" style="line-height: 1.5rem;">
+                                                    台北歷史悠久的飯店之一</br>這次在疫情期間也推出優惠</br>提供總統套房<span class="attention">30%優惠</span></br> 快快入住吧
+                                                </p>
+                                            </div>
+                                            <div class="col-2">
+                                                <!-- Price -->
+                                                <div class="fs-4 font-serif text-center">
+                                                    $5000
+                                                </div>
+                                                <a href="#" data-name="台北圓山大飯店" data-price="5000" class="add-to-cart btn btn-primary mt-3"><i class="fas fa-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="py-3 border-bottom">
+                                        <div class="row">
+                                            <div class="col-3 align-self-center">
+                                                <!-- Image -->
+                                                <div class="ratio ratio-1x1">
+                                                    <img class="object-fit-cover rounded js-fadeInLeft" src="cart/04.png" alt="...">
+                                                </div>
+                                            </div>
+                                            <div class="col-7">
+                                                <!-- Heading -->
+                                                <h5 class="mb-2 title"><i class="fas fa-shopping-cart"></i>&emsp;高雄必勝客餐廳 專屬折扣</h5>
+                                                <!-- Text -->
+                                                <p class="mb-0 opacity-75" style="line-height: 1.5rem;">
+                                                    全台灣最好吃的披薩店</br>這次也推出了<span class="attention">全店半價優惠</span></br>歡迎民眾趁著優惠買回家</br>再也不怕在家肚子餓 ！
+                                                </p>
+                                            </div>
+                                            <div class="col-2">
+                                                <!-- Price -->
+                                                <div class="fs-4 font-serif text-center">
+                                                    $200
+                                                </div>
+                                                <a href="#" data-name="高雄必勝客餐廳 專屬折扣" data-price="200" class="add-to-cart btn btn-primary mt-3"><i class="fas fa-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="py-3 border-bottom">
+                                        <div class="row">
+                                            <div class="col-3 align-self-center">
+                                                <!-- Image -->
+                                                <div class="ratio ratio-1x1">
+                                                    <img class="object-fit-cover rounded js-fadeInLeft" src="cart/05.png" alt="...">
+                                                </div>
+                                            </div>
+                                            <div class="col-7">
+                                                <!-- Heading -->
+                                                <h5 class="mb-2 title"><i class="fas fa-shopping-cart"></i>&emsp;桃園內壢大飯店 專屬折扣</h5>
+                                                <!-- Text -->
+                                                <p class="mb-0 opacity-75" style="line-height: 1.5rem;">
+                                                    桃園最值得住的餐廳第一名</br>才新開幕不久就住滿了人</br>推出了<span class="attention">總統套房折2000</span>的優惠
+                                                </p>
+                                            </div>
+                                            <div class="col-2">
+                                                <!-- Price -->
+                                                <div class="fs-4 font-serif text-center">
+                                                    $500
+                                                </div>
+                                                <a href="#" data-name="桃園內壢大飯店 專屬折扣" data-price="500" class="add-to-cart btn btn-primary mt-3"><i class="fas fa-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="py-3 border-bottom">
+                                        <div class="row">
+                                            <div class="col-3 align-self-center">
+                                                <!-- Image -->
+                                                <div class="ratio ratio-1x1">
+                                                    <img class="object-fit-cover rounded js-fadeInLeft" src="cart/06.png" alt="...">
+                                                </div>
+                                            </div>
+                                            <div class="col-7">
+                                                <!-- Heading -->
+                                                <h5 class="mb-2 title"><i class="fas fa-shopping-cart"></i>&emsp;桃園薩利亞餐廳 專屬折扣</h5>
+                                                <!-- Text -->
+                                                <p class="mb-0 opacity-75">
+                                                    學生時代大家最常吃的餐廳</br>飯麵類都無比的好吃</br>這次提供了<span class="attention">全店折20%</span>優惠</br>
+                                                    祝您吃的開心！
+                                                </p>
+                                            </div>
+                                            <div class="col-2">
+                                                <!-- Price -->
+                                                <div class="fs-4 font-serif text-center">
+                                                    $200
+                                                </div>
+                                                <a href="#" data-name="桃園薩利亞餐廳 專屬折扣" data-price="200" class="add-to-cart btn btn-primary mt-3"><i class="fas fa-plus"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    </section>
+    <section class="py-7 py-md-9 bg-light" id="dm">
+        <img src="parallax/06.png" alt="" class="rellax parallax-5" data-rellax-speed="-2">
+        
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 col-lg-6 text-center">
+                    <!-- Heading -->
+                    <h2 class="mb-4 fw-bold js-fadeInUp" style="letter-spacing: 5px;">
+                        訂閱我們
+                    </h2>
+                    <!-- Subheading -->
+                    <p class="mb-5" style="line-height: 2rem;">
+                        喜歡我們的信息，想要收到更多的資料嗎？</br>
+                        那就寫下你的電子郵件，我們會寄消息給你！
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <!-- Begin Mailchimp Signup Form -->
+                    <div>
+                        <form action="" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate="">
+                            <div class="row justify-content-center gx-3" id="mc_embed_signup_scroll">
+                                <div class="col">
+                                    <label class="visually-hidden" for="mce-EMAIL">Email Address </label>
+                                    <input class="form-control" type="email" value="" name="EMAIL" id="mce-EMAIL">
+                                </div>
+                                <div class="visually-hidden" id="mce-responses">
+                                    <div class="response" id="mce-error-response" style="display:none"></div>
+                                    <div class="response" id="mce-success-response" style="display:none"></div>
+                                </div> <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                <div class="col-auto">
+                                    <a href="" class="btn btn-primary" data-target="#modal4" data-toggle="modal">送出</a>
+                                    <div class="modal fade" id="modal4">
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header" id="modal4">
+                                                    <h5 class="mb-0">已送出</h5>
+                                                    <button class="btn-close" data-dismiss="modal"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    感謝您的訂閱！
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button class="btn-secondary btn" data-dismiss="modal">關閉</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    </form>
+                </div>
+                <!--End mc_embed_signup-->
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="qa text-light bg-info bg-qa" id="qa">
+        <img src="parallax/07.png" alt="" class="rellax parallax-6" data-rellax-speed="-2">
+        <div class="container text-center">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 col-lg-6 text-center">
+                    <!-- Heading -->
+                    <h2 class="mb-4 fw-bolder js-fadeInUp" style="letter-spacing: 5px; text-shadow: 0.01em 0.01em 0.2em #ffffff80; ">
+                        Q & A
+                    </h2>
+                    <!-- Subheading -->
+                    <p class="mb-4 text-muted">
+                        您或許會想知道...</p>
+                </div>
+            </div>
+            <div class="accordion text-dark wow bounceInLeft">
+                <div class="card bg-light">
+                    <div class="card-header" id="heading1">
+                        <h5 class="mb-0">
+                            <button class="btn-block btn-link btn collapsed" data-target="#collapse1" data-toggle="collapse"><i class="fas fa-plus"></i>「宅度假」範圍一般多遠比較合適？</button>
+                        </h5>
+                    </div>
+                    <div class="collapse" id="collapse1">
+                        <div class="card-body">
+                        「宅度假」只要不出國，在自己的國家
+內，或者在自己家附近範圍內的度假模式都可以。
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-light">
+                    <div class="card-header" id="heading2">
+                        <h5 class="mb-0">
+                            <button class="btn-block btn-link btn collapsed" data-target="#collapse2" data-toggle="collapse"><i class="fas fa-plus"></i>「宅度假」一般幾天比較合適？</button>
+                        </h5>
+                    </div>
+                    <div class="collapse" id="collapse2">
+                        <div class="card-body">
+                        「宅度假」不用忍受長途飛行，省时、省力又
+省钱。只需要短短一、兩天的週末假期就能體驗度假的樂趣。
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-light">
+                    <div class="card-header" id="heading3">
+                        <h5 class="mb-0">
+                            <button class="btn-block btn-link btn collapsed" data-target="#collapse3" data-toggle="collapse"><i class="fas fa-plus"></i>「宅度假」需要花多少錢？</button>
+                        </h5>
+                    </div>
+                    <div class="collapse" id="collapse3">
+                        <div class="card-body">
+                        「宅度假」不必訂機票、不用兌換匯率，不需要準
+備物品，是真正的說走就走的旅行。只需要支付訂飯店、大眾交通費和餐飲費
+就可以了。
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-light">
+                    <div class="card-header" id="heading4">
+                        <h5 class="mb-0">
+                            <button class="btn-block btn-link btn collapsed" data-target="#collapse4" data-toggle="collapse"><i class="fas fa-plus"></i>「宅度假」到底是什麼？</button>
+                        </h5>
+                    </div>
+                    <div class="collapse" id="collapse4">
+                        <div class="card-body">
+                        「宅度假(staycation)」是「Stay」+「Vacation」的合體，指在假期留守常住地，或僅
+在周邊短途旅遊爲主的度假模式。
+                        </div>  
+                    </div>
+                </div>
+                <div class="card bg-light">
+                    <div class="card-header" id="heading5">
+                        <h5 class="mb-0">
+                            <button class="btn-block btn-link btn collapsed" data-target="#collapse5" data-toggle="collapse"><i class="fas fa-plus"></i> 為什麼會有「宅度假」？</button>
+                        </h5>
+                    </div>
+                    <div class="collapse" id="collapse5">
+                        <div class="card-body">
+                        這種度假方式本是一種被動的選擇，因為交通擁
+堵、預算和時間受限而做的不得之舉。自新冠病毒席捲全球以來，「宅度假」模式也
+逐步流行。鄰近的景點、鄰近的飯店或度假村都成為了人們的新寵，免除舟車勞頓，
+輕鬆進入度假模式。
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-light">
+                    <div class="card-header" id="heading6">
+                        <h5 class="mb-0">
+                            <button class="btn-block btn-link btn collapsed" data-target="#collapse6" data-toggle="collapse"><i class="fas fa-plus"></i> 如果我有燒、咳嗽、呼吸困難等症狀的話，還可以去旅行嗎？</button>
+                        </h5>
+                    </div>
+                    <div class="collapse" id="collapse6">
+                        <div class="card-body">
+                        14 天有國外旅遊史以及有感冒、
+發燒、咳嗽、呼吸困難等症狀不宜參加旅遊，旅途中如發現身體不適，應立即就醫。
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about text-light"  id="contact">
+        
+        <div class="bg-overlay3"></div>
+        <div class="bg-overlay"></div>
+        <img src="parallax/05.png" alt="" class="rellax parallax-9" data-rellax-speed="-2">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="section-heading mb-4 fw-bold" style="letter-spacing: 5px; text-shadow: 0.01em 0.01em 0.2em #ffffff80;">聯繫我們 </h2>
+                    <p class="mb-5">如果您還有其他問題，歡迎洽詢宅品味</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4 ml-auto text-center">
+                    <i class="fas fa-phone fa-3x mb-3 sr-contact-1"></i>
+                    <p id="copy">分機：67599</p>
+                    <button type="button" onclick="copyEvent('copy')" class="btn btn-primary"><i class="far fa-copy" style="color: #fff;"></i></button>
+                    <script>
+                        function copyEvent(id)
+                {
+                    var str = document.getElementById(id);
+                    window.getSelection().selectAllChildren(str);
+                    document.execCommand("Copy")
+                }
+                    </script>
+                </div>
+                <div class="col-lg-4 mr-auto text-center">
+                    <i class="fas fa-envelope fa-3x mb-3 sr-contact-2"></i>
+                    <p id="copy2">stayvacation@gmail.com</p>
+                    <button type="button" onclick="copyEvent('copy2')" class="btn btn-primary"><i class="far fa-copy" style="color: #fff;"></i></button>
+                    <script>
+                        function copymama(id)
+                {
+                    var str = document.getElementById(id);
+                    window.getSelection().selectAllChildren(str);
+                    document.execCommand("Copy2")
+                }
+                    </script>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- modal(不支援IE提示) -->
+    <div class="modal modal-no-ie fade" id="modal-no-ie" tabindex="-1" role="dialog" aria-labelledby="modal-no-ieLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal-no-ieLabel">您目前使用的瀏覽器不支援</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="text-center">簽核流程系統不支援IE瀏覽器，請選擇以下瀏覽器：</p>
+                    <div class="row">
+                        <div class="col-sm-6 text-center text-sm-right mb-3">
+                            <a class="btn btn-lg btn-warning" href="https://www.google.com/intl/zh-TW_ALL/chrome/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="前往安裝"><i class="fab fa-chrome"></i> Chrome</a>
+                        </div>
+                        <div class="col-sm-6 text-center text-sm-left">
+                            <a class="btn btn-lg btn-primary" href="https://www.mozilla.org/zh-TW/firefox/new/" target="_blank" data-toggle="tooltip" data-placement="bottom" title="前往安裝"><i class="fab fa-firefox"></i> Firefox</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 購物車彈跳視窗 -->
+    <div class="modal fade" id="cart" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">購物車</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <table class="show-cart table">
+                    </table>
+                    <div>總價: $<span class="total-cart"></span></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">關閉</button>
+                    <button type="button" class="btn btn-primary">結帳</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal(彈出廣告) -->
+    <!--  <div class="modal modal-popup fade" id="modal-popup" tabindex="-1" role="dialog" aria-labelledby="modal-no-ieLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body p-0 h-100">
+                    <div class="modal-popup-close">
+                        <button type="button" class="close mb-2" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div> -->
+    <!-- 每次更換彈出廣告要改圖片位置 -->
+    <!-- <img src="img/popup/popup_cover_190426.jpg" class="w-100">
+<div class="text-center my-4">
+    <button class="btn btn-lg btn-info" data-dismiss="modal" id="modal-popup-more">了解更多</button>
+</div>
+<div class="text-center custom-control custom-checkbox my-1">
+    每次更換彈出廣告要改name
+    <input type="checkbox" class="custom-control-input" id="modal-popup-check" name="modal-popup-check-190426">
+    <label class="custom-control-label font-weight-bold" for="modal-popup-check">下次不再顯示</label>
+</div>
+</div>
+</div>
+</div>
+</div> -->
+    <!-- 回頂端 -->
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-arrow-up"></i>
+        </a>
+    </div>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!-- jquery cookie -->
+    <script src="vendor/jquery.cookie/jquery.cookie.min.js"></script>
+    <!-- cart -->
+    <script src="js/cart.js"></script>
+    <!-- Custom scripts for this template -->
+    <script src="js/creative.min.js"></script>
+    <!-- go top js -->
+    <script src="js/gotop.js"></script>
+    <!-- fancy box js -->
+    <script src="js/jquery.fancybox.min.js"></script>
+    <!-- woww.js -->
+    <script src="js/wow.js"></script>
+    <!-- custom js -->
+    <script src="js/index.js?v=19031401"></script>
+    <script src="js/popper.min.js"></script>
+    <!-- rellax.min.js -->
+    <script src="vendor/rellax/rellax.min.js"></script>
+    <!-- scrollreveal -->
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+</body>
+<!-- custom -->
+<script>
+// rellax
+var rellax = new Rellax('.rellax', {
+    // speed: -2,
+    center: true,
+    // wrapper: null,
+    // round: true,
+    // vertical: true,
+    // horizontal: false
+});
+
+// scrollreveal
+ScrollReveal().reveal('.js-fadeInUp', {
+    origin: 'bottom',
+    distance: '50px',
+    delay: 200,
+    duration: 800,
+    reset: true
+});
+ScrollReveal().reveal('.js-fadeInLeft', {
+    origin: 'left',
+    distance: '50px',
+    delay: 200,
+    duration: 800
+    // reset: true
+});
+ScrollReveal().reveal('.js-fadeInRight', {
+    origin: 'right',
+    distance: '50px',
+    delay: 200,
+    duration: 800
+    // reset: true
+});
+ScrollReveal().reveal('.service-item', {
+    origin: 'bottom',
+    distance: '50px',
+    duration: 500,
+    interval: 300
+});
+</script>
+
+</html>
